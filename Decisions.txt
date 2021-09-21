@@ -1,0 +1,15 @@
+My first decision was to use pascal case for variables and lower camel case for functions, as the task showed Lx and Ly as pascal cases (initial uppercase). 
+I usually use pascal case for functions and lower camel case for variables.
+Exceptions to this is the imports, promise (resolve, reject) and readline variable.
+
+The second decision was to use console.log() instead of process.stdout.write().
+The reason here is that console.log is just a formated process.stdout.write(), and I'm more used to using console.log().
+
+The third decision is that the pool must be above 1 meter in length and width for the program to work since the machine can't move if the pool's size is 1x1.
+
+The fourth decision was to stop the program anytime an error occurred. 
+Since it didn't specify whenever the program should stop or ask the user to try again, I choose to stop it.
+
+The fifth decision is about the cleaning path. 
+Since it's a simulation of a machine that should have buttons, 
+I choose to remove anything that isn't a command in the path validation instead of simply sending an error message and stopping the program.

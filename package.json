@@ -1,0 +1,11 @@
+{
+  "name": "fteen-pool-cleaner",
+  "version": "1.0.0",
+  "description": "It's a simulation program for a pool cleaner that can move forward and turn left and right.",
+  "main": "PoolCleaner.js",
+  "scripts": {
+    "test": "node PoolCleaner.js"
+  },
+  "author": "Jesper Flodström",
+  "license": "ISC"
+}

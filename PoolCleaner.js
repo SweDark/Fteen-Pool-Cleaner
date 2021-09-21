@@ -101,7 +101,7 @@ const getPoolSize = () => {
     console.log(`The program requires you to input the pool's x-width and y-length.`);
     console.log(`The input will define the area where the simulation can move within.`);
     console.log(`It also requires you to input a direction and its southwestern coordinate (x-width and y-length).`);
-    console.log(`The input will simulate the machine's southwest coordinate and in which direction it faces from the start.`);
+    console.log(`The input will simulate the machine's southwestern coordinate and in which direction it faces from the start.`);
     console.log(`It will also ask for the cleaning path it should take.`);
     console.log(`The input path will simulate where it will clean and give us a result containing the end direction and position.${colors.ResetColor}`)
   }
